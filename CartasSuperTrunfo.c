@@ -12,13 +12,20 @@ int main() {
     
     printf("Lógica Super Trunfo!\n");
     
-    char estado1, estado2[50];
-    char codigo1,codigo2[50];
-    char cidade1, cidade2[50];
-    int populacao1, populacao2;
-    float area1, area2;
-    float pib1, pib2;
-    int pontosturisticos1, pontosturisticos2;
+    char estado1[50];
+    char estado2[50];
+    char codigo1[50];
+    char codigo2[50];
+    char cidade1[50];
+    char cidade2[50];
+    int populacao1;
+    int populacao2;
+    float area1;
+    float area2;
+    float pib1;
+    float pib2;
+    int pontosturisticos1;
+    int pontosturisticos2;
     
     // Cadastro das Cartas:
     // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
@@ -73,7 +80,7 @@ int main() {
     printf("Código1: %s \n", codigo1);
     printf("Cidade1: %s \n", cidade1);
     printf("População1: %d \n", populacao1);
-    printf("Área1: %.2f \n", area1);
+    printf("Área1: %.2f km²\n", area1);
     printf("PIB1: %.2f \n", pib1);
     printf("Pontos Turísticos1: %d \n", pontosturisticos1);
 
@@ -81,7 +88,7 @@ int main() {
     printf("Código2: %s \n", codigo2);
     printf("Cidade2: %s \n", cidade2);
     printf("População2: %d \n", populacao2);
-    printf("Área2: %.2f \n", area2);
+    printf("Área2: %.2f km²\n", area2);
     printf("PIB2: %.2f \n", pib2);
     printf("Pontos Turísticos2: %d \n", pontosturisticos2);
     
